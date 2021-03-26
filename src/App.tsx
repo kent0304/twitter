@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Counter } from './features/counter/Counter';
 import './App.css';
-import CleanUp from './Cleanup';
+import CleanUp from './CleanUp';
 
 const App: React.FC = () =>  {
   const [status, setStatus] = useState<string | number>("text");

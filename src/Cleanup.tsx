@@ -22,4 +22,4 @@ const CleanUp: React.FC = () => {
     )
 }
 
-export default CleanUp
+export default CleanUp;
