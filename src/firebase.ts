@@ -16,7 +16,10 @@ const firebaseConfig = {
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
 
+// firebaseの各機能が使えるようにexport
 export const db = firebaseApp.firestore();
 export const auth = firebase.auth();
 export const storage = firebase.storage();
+
+// Googleの認証機能導入
 export const provider = new firebase.auth.GoogleAuthProvider();
